@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MapaActivity">
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+
+    <Button
+        android:id="@+id/btnConectarse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conectarse"
+        android:background="@drawable/rounded_bottom"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/btnDesconectarse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Desconectarse"
+        android:background="@drawable/rounded_bottom"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:visibility="gone"
+        app:backgroundTint="@color/grey"
+        />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

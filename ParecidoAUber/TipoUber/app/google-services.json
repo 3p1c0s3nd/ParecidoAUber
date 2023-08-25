@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "894302298919",
+    "project_id": "tipouber-8aa6e",
+    "storage_bucket": "tipouber-8aa6e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894302298919:android:6a000787d96dd3c27f7f02",
+        "android_client_info": {
+          "package_name": "com.example.tipouber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894302298919-6h29cnp46dn7iubtllle6b36fiu235c4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnAoi_lrruy_yAp5gzUFwkegxZXeuOCkE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "894302298919-6h29cnp46dn7iubtllle6b36fiu235c4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

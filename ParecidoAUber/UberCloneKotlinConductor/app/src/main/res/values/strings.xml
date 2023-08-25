@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Uber Clone Driver Kotlin</string>
+    <string name="google_maps_key">AIzaSyBhUWh8YM8n06wwLfk7QEQj-gW8Fn3-JTk</string>
+    <string name="default_notification_channel_id">fcm_default_channel</string>
+</resources>
